@@ -70,8 +70,13 @@ bin/
 *.cache
 /.nb-gradle/private/
 
-# PMD local rules
+# PMD files
 .pmd
+.ruleset
+test-output/
 
-# IntelliJ / Android Studio related files
-local.properties
+# Checkstyle local config
+.checkstyle
+
+# Some editor's config
+.editorconfig
